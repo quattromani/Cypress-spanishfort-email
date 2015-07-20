@@ -146,15 +146,15 @@ a {
 }
 
 a:hover {
-  color: #06263d !important;
+  color: #c4dc42 !important;
 }
 
 a:active {
-  color: #06263d !important;
+  color: #c4dc42 !important;
 }
 
 a:visited {
-  color: #06263d !important;
+  color: #c4dc42 !important;
 }
 
 /* Panels */
@@ -236,8 +236,8 @@ span {
 }
 
 .header table {
-  border-top: 5px solid #06263d;
-  border-bottom: 20px solid #06263d;
+  border-top: 5px solid #016272;
+  border-bottom: 20px solid #016272;
 }
 
 .header table td {
@@ -250,6 +250,11 @@ span {
 
 .footer table td {
   padding: 20px 0 10px 0 !important;
+  color: #9e9e9e;
+}
+
+.footer table td a {
+  color: #9e9e9e;
 }
 
 .footer table td:last-of-type {
@@ -257,7 +262,7 @@ span {
 }
 
 .post-footer table {
-  background-color: #06263d;
+  background-color: #016272;
 }
 
 @media only screen and (max-width: 550px) {

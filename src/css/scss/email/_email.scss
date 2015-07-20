@@ -73,10 +73,15 @@ a.read-more {
 
 .footer {
   table {
-    color: $color-grey;
+    color: $footer-text;
 
     td {
       padding: 20px 0 10px 0 !important;
+      color: $footer-text;
+
+      a {
+        color: $footer-text;
+      }
 
       &:last-of-type {
         padding: 20px 0 20px 0 !important;

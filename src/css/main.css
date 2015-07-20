@@ -580,15 +580,15 @@ a {
 }
 
 a:hover {
-  color: #06263d !important;
+  color: #c4dc42 !important;
 }
 
 a:active {
-  color: #06263d !important;
+  color: #c4dc42 !important;
 }
 
 a:visited {
-  color: #06263d !important;
+  color: #c4dc42 !important;
 }
 
 h1 a,
@@ -994,8 +994,8 @@ a.read-more {
 }
 
 .header table {
-  border-top: 5px solid #06263d;
-  border-bottom: 20px solid #06263d;
+  border-top: 5px solid #016272;
+  border-bottom: 20px solid #016272;
 }
 .header table td {
   padding: 20px !important;
@@ -1006,13 +1006,17 @@ a.read-more {
 }
 .footer table td {
   padding: 20px 0 10px 0 !important;
+  color: #9e9e9e;
+}
+.footer table td a {
+  color: #9e9e9e;
 }
 .footer table td:last-of-type {
   padding: 20px 0 20px 0 !important;
 }
 
 .post-footer table {
-  background-color: #06263d;
+  background-color: #016272;
 }
 
 .hero img {
@@ -1020,7 +1024,7 @@ a.read-more {
 }
 
 .nav table {
-  background-color: #06263d;
+  background-color: #c4dc42;
 }
 .nav table td {
   padding: 5px 10px 5px 10px;
@@ -1048,8 +1052,8 @@ a.read-more {
 .legend table {
   border-collapse: seperate;
   padding: 10px;
-  outline: 2px solid #06263d;
-  background-color: #06263d;
+  outline: 2px solid #016272;
+  background-color: #016272;
 }
 .legend table table {
   border-collapse: collapse;
@@ -1111,7 +1115,7 @@ figcaption .iab {
 }
 
 .figcaption {
-  background-color: #06263d;
+  background-color: #c4dc42;
 }
 .figcaption td {
   padding: 10px 0 !important;
@@ -1119,7 +1123,7 @@ figcaption .iab {
 .figcaption h3 {
   font-size: 20px;
   display: inline-block;
-  border-top: 2px solid #06263d;
+  border-top: 2px solid #016272;
   color: #ffffff !important;
 }
 .figcaption td {
