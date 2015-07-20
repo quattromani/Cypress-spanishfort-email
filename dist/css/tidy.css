@@ -1,0 +1,269 @@
+/*** uncss> filename: src/css/main.css ***/
+
+/* Client-specific Styles & Reset */
+
+body {
+  width: 100% !important;
+  min-width: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* .ExternalClass applies to Outlook.com (the artist formerly known as Hotmail)  */
+
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  width: auto;
+  max-width: 100%;
+  float: left;
+  clear: both;
+  display: block;
+}
+
+center {
+  width: 100%;
+  min-width: 650px;
+}
+
+a img {
+  border: none;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  border-collapse: collapse !important;
+}
+
+table,
+tr,
+td {
+  padding: 0;
+  vertical-align: top;
+  text-align: left;
+}
+
+/* Responsive Grid */
+
+table.body {
+  height: 100%;
+  width: 100%;
+}
+
+table.container {
+  width: 650px;
+  margin: 0 auto;
+  text-align: inherit;
+}
+
+table.row {
+  padding: 0px;
+  width: 100%;
+  position: relative;
+}
+
+td.wrapper {
+  padding: 10px 20px 0px 0px;
+  position: relative;
+}
+
+table.columns {
+  margin: 0 auto;
+}
+
+table.columns td {
+  padding: 10px 0px 10px;
+}
+
+table.row td.last {
+  padding-right: 0px;
+}
+
+table.twelve {
+  width: 650px;
+}
+
+td.expander {
+  visibility: hidden;
+  width: 0px;
+  padding: 0 !important;
+}
+
+/* Block Grid */
+
+/* Alignment & Visibility Classes */
+
+td.center {
+  text-align: center;
+}
+
+span.center {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+img.center {
+  margin: 0 auto;
+  float: none;
+}
+
+/* Typography */
+
+body,
+table.body,
+td {
+  color: #333333;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  line-height: 1.5625;
+}
+
+body,
+table.body,
+td {
+  font-size: 16px;
+  line-height: 1.5625;
+}
+
+a {
+  color: #484b4d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #06263d !important;
+}
+
+a:active {
+  color: #06263d !important;
+}
+
+a:visited {
+  color: #06263d !important;
+}
+
+/* Panels */
+
+/* Buttons */
+
+/* Outlook First */
+
+/*  Media Queries */
+
+@media only screen and (max-width: 672.41379px) {
+  table[class="body"] img {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  table[class="body"] center {
+    min-width: 0 !important;
+  }
+
+  table[class="body"] .container {
+    width: 90% !important;
+  }
+
+  table[class="body"] .row {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  table[class="body"] .wrapper {
+    display: block !important;
+    padding-right: 0 !important;
+  }
+
+  table[class="body"] .columns {
+    table-layout: fixed !important;
+    float: none !important;
+    width: 100% !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    display: block !important;
+  }
+
+  table[class="body"] table.columns td {
+    width: 100% !important;
+  }
+
+  table[class="body"] table.columns td.expander {
+    width: 1px !important;
+  }
+}
+
+.container {
+  background-color: #ffffff !important;
+}
+
+.center {
+  text-align: center;
+}
+
+span {
+  hyphens: auto;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.toast {
+  display: none;
+  width: 0;
+  max-width: 0;
+  height: 0;
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  mso-hide: all;
+  visibility: hidden;
+  color: transparent;
+}
+
+.header table {
+  border-top: 5px solid #06263d;
+  border-bottom: 20px solid #06263d;
+}
+
+.header table td {
+  padding: 20px !important;
+}
+
+.footer table {
+  color: #9e9e9e;
+}
+
+.footer table td {
+  padding: 20px 0 10px 0 !important;
+}
+
+.footer table td:last-of-type {
+  padding: 20px 0 20px 0 !important;
+}
+
+.post-footer table {
+  background-color: #06263d;
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    padding: 0 !important;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

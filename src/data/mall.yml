@@ -1,0 +1,30 @@
+# Site settings
+title: Responsive Email
+version: 0.0.1
+author: Max Quattromani
+email: max@maxquattromani.com
+description: ""
+baseurl: "/"
+mallname: bassett-place
+url: bassettplace
+author: "Max Quattromani"
+facebook: bassettplace
+twitter: bassettplace
+
+name: Bassett Place
+streetaddress: 6101 Gateway Boulevard West
+city: El Paso
+state: TX
+zip: 79925
+phone-area: 915
+phone-prefix: 772
+phone-number: 7479
+
+theme: cypress
+
+# Build settings
+exclude: ['node_modules', 'scss', 'DAM']
+
+subject: 'Big Savings this Weekend!'
+
+toast: 'This is a toast - it will appear in the preview pane of the email client, use wisely!'
