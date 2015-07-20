@@ -4,7 +4,7 @@ email client, use wisely!
 -logo.png" style="outline: none; text-decoration:
 none; -ms-interpolation-mode: bicubic; width: auto; max-width:
 100%; float: none; clear: both; display: block; text-align:
-center; margin: 0 auto; border: none;" align="none" /> ( http://bassettplace.com/register/ )
+center; margin: 0 auto; border: none;" align="none" /> ( )
 
 -icon-bar.png" style="outline: none; text-decoration:
 none; -ms-interpolation-mode: bicubic; width: auto; max-width:
